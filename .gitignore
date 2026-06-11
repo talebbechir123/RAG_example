@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment and secrets
+.env
+*.key
+*.json.bak
+gcp-service-account*.json
+
+# Data (decide per project, see note below)
+data/
+embeddings/
+*.faiss
+chroma_db/
+
+# Build / OS
+*.log
+.DS_Store
+.idea/
+.vscode/
